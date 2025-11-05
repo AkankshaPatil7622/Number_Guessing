@@ -1,0 +1,59 @@
+.gameContainer {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: aliceblue;
+}
+
+#main {
+  height: 700px;
+  width: 900px;
+  background-color: rgb(255, 198, 157);
+
+}
+#title {
+  text-align: center;
+}
+#timer {
+  font-size: 40px;
+}
+
+#card {
+  height: 400px;
+  width: 600px;
+  background-color: rgb(221, 232, 252);
+  box-shadow: 0px 6px 10px 6px rgba(0, 0, 0, 0.3);
+   margin-left: 150px;
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#input{
+  height: 50px;
+  width: 550px;
+  margin-left: 170px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.btnContainer {
+  width: 700px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+#score {
+  height: 50px;
+  width: 150px;
+  background-color: aquamarine;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.btn {
+  width: 150px;
+}
